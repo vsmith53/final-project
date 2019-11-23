@@ -77,6 +77,11 @@ ul a:hover {
 	margin-bottom: 20px;
 }
 
+#contact-icons{
+	color: #fff;
+	display: inline-block;
+}
+
 #slogan {
 	text-align: center;
 	font-style: italic;
