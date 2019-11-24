@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width-device-width, initial-scale=1">
 	<title>Garcia Lawn Pro</title>
 
 	<link rel="stylesheet" href="styles.css">
@@ -13,25 +14,25 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-  <meta name="viewport" content="width-device-width, initial-scale=1">
-
   <script src="https://kit.fontawesome.com/53452e5a9b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 	<header id="#home">
-		<nav class="nav">
-			<div class="container-fluid nav-elements">
-				<div class="branding">
-					<a href="#home"> <img src="img/garcialogo.png" alt="Garcia Lawn Pro logo"> </a>
-					<h3 id="slogan">"Lawn Service done right at the right price."</h3>
-				</div>
-
-				<ul class="navbar">
-					<li><a href="index.html">home</a></li>
-					<li><a href="#about">about</a></li>
-					<li><a href="#services">services</a></li>
-					<li><a href="#testimonials">testimonials</a></li>
+    <div class="container-fluid nav-elements topnav" id="myTopNav">
+        <div class="branding">
+          <a href="#home"> <img src="img/garcialogo.png" alt="Garcia Lawn Pro logo"> </a>
+          <h3 id="slogan">"Lawn Service done right at the right price."</h3>
+          </div>
+		<nav class="navbar navbar-expand-md">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+				<ul class="navbar-nav">
+					<li class="nav-item"><a class="nav-link" href="index.html">home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#about">about</a></li>
+					<li class="nav-item"><a class="nav-link" href="#services">services</a></li>
+					<li class="nav-item"><a class="nav-link" href="#testimonials">testimonials</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -39,13 +40,18 @@
 	<!-- about section -->
 	<section id="about" class="section">
 		<div class="container-fluid">
-		<img src="img/lawncare-1.jpg">
+		<img src="img/lawncare-1.jpg" class="hero">
 		</div>
 		<div class="text-content">
 
 			<h3 class="about-title">About Our Company</h3>
       <div class="border"></div>
 			<p>Lorem ipsum dolor amet intelligentsia laborum adaptogen quinoa. Drinking vinegar nulla artisan laboris you probably haven't heard of them. Officia keffiyeh pariatur sunt. Trust fund organic wayfarers pariatur forage offal. Cred magna banh mi, cloud bread occupy narwhal schlitz photo booth. Photo booth reprehenderit franzen tacos kickstarter intelligentsia normcore celiac put a bird on it sustainable shabby chic direct trade twee hot chicken. Man bun fingerstache sartorial palo santo retro venmo.</p>
+      <h4>Follow Us:</h4>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
       <h4>Contact Us:</h4>
       <div class="contact-icons">
         <i class="fas fa-phone"></i><p>210-123-4567</p>
@@ -159,6 +165,11 @@
     </div>
 	</section>
 
+  <footer>
+  <p>&copy;2019 Viviana Garcia.</p>
+  <p>This website was created for educational use only and is not meant to represent an actual business. Any similarities to an actual business is not intended.</p>
+  </footer>
+
 	<!-- modals -->
 	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   	<div class="modal-dialog" role="document">
@@ -179,5 +190,6 @@
     </div>
   </div>
 </div>
+
 </body>
 </html>

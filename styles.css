@@ -4,22 +4,59 @@
 	font-family: "montserrat", sans-serif;
 }
 
-ul a {
-	color: inherit;
+/* navbar styling */
+
+.navbar {
+	color: #fff;
 	text-decoration: none;
+	text-transform: uppercase;
+	list-style-type: none;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: #000;
 	text-transform: uppercase;
 }
 
-ul a:hover {
+.navbar a:hover {
 	text-decoration: none;
 	color: #35b729;
 	text-transform: uppercase;
+}
+
+ul {
+	list-style-type: none;
+	float: left;
+}
+
+ul li {
+	margin-left: 2.5rem;
 }
 
 img {
 	max-width:100%;
     height:auto;
 }
+
+
+/* section styling */
+
+#about {
+	background-color: #35b729;
+	text-align: center;
+	color: white;
+}
+
+#services {
+	margin-top: 5rem
+}
+
+.text-content {
+	padding: 2.5rem;
+}
+
+/*testimonial styling */
 
 #testimonials{
 	padding: 40px;
@@ -82,33 +119,22 @@ img {
 	margin-bottom: 20px;
 }
 
-#contact-icons{
+.contact-icons{
 	color: #fff;
 	display: inline-block;
 }
+
 
 #slogan {
 	text-align: center;
 	font-style: italic;
 }
 
-ul {
-	list-style-type: none;
-	float: left;
-}
-
-ul li {
-	margin-left: 2.5rem;
-}
-
-#about {
+footer {
 	background-color: #35b729;
+	color: #fff;
 	text-align: center;
-	color: white;
-}
-
-.text-content {
-	padding: 2.5rem;
+	padding: 20px;
 }
 
 
@@ -125,4 +151,3 @@ ul li {
 		max-width: 100%
 	}
 }
-
