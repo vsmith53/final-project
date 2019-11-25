@@ -45,7 +45,7 @@ img {
 
 .toggle{
 	width: 100%;
-	padding: 10px 20px;
+	padding: 20px 20px;
 	background: #35b729;
 	text-align: right;
 	box-sizing: border-box;
@@ -56,8 +56,8 @@ img {
 
 .icon {
 	position: absolute;
-	top: 43%;
-	left: 9%;
+	top: 44%;
+	left: 94%;
 	transform: translate(-50%,-50%);
 	width: 40px;
 	height: 40px;
