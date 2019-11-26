@@ -59,8 +59,8 @@ img {
 	top: 44%;
 	left: 94%;
 	transform: translate(-50%,-50%);
-	width: 40px;
-	height: 40px;
+	width: 35px;
+	height: 35px;
 	cursor: pointer;
 	background-color: #35b729; 
 	}
@@ -131,6 +131,38 @@ img {
 
 .text-content {
 	padding: 2.5rem;
+}
+
+button {
+	border: solid 1px #fff;
+	background-color: #35b729;
+	color: white;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px; 
+}
+
+button:hover {
+	background-color: white;
+	color: #35b729;
+}
+
+#res-btn,
+#comm-btn{
+	border-radius: 25px;
+}
+
+#learn-more{
+	margin: 25px;
+}
+
+/*contact style*/
+#contact{
+	background-color: #35b729;
+	text-align: center;
+	color: white;
 }
 
 /*testimonial styling */
